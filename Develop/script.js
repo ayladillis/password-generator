@@ -4,11 +4,11 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",];
 const specialCharacters = ["!", "@", "#", "$", "%", "&", "*", "_", "+"];
 const generateButton = document.getElementById('generateBtn');
 
-let combined = [];
-let displayElement = document.getElementById("#password");
-let password = [];
-let numResponse = 0;
-let specialCharacterResponse = " ";
+//let combined = [];
+//let displayElement = document.getElementById("#password");
+//let password = [];
+//let numResponse = 0;
+//let specialCharacterResponse = " ";
 
 
 // Write password to the #password input
@@ -90,23 +90,26 @@ function generatePassword() {
 
   }
 
-  
+  randomPasswordGenerated += minimumNumbers;
+  randomPasswordGenerated += minimumLowerCases;
+  randomPasswordGenerated += minimumUpperCases;
+  randomPasswordGenerated += minimumSpecialCharacters;
 
-}
+  return randomPasswordGenerated;
 
 
-  for (var i = 0; i < userResponse; i++); {
-    Math.floor(math.random);
-  }
+  //for (var i = 0; i < userResponse; i++); {
+   // Math.floor(math.random);
+ // }
 
-  for (var i = 0; i < spCharResponse; i++); {
-    Math.floor(math.random)
-  }
+ // for (var i = 0; i < spCharResponse; i++); {
+    //Math.floor(math.random)
+ // }
 
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+ // var password = generatePassword();
+ // var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  //passwordText.value = password;
 
 
 }
