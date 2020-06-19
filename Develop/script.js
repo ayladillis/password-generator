@@ -4,11 +4,6 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",];
 const specialCharacters = ["!", "@", "#", "$", "%", "&", "*", "_", "+"];
 const generateButton = document.getElementById('generateBtn');
 
-//let combined = [];
-//let displayElement = document.getElementById("#password");
-//let password = [];
-//let numResponse = 0;
-//let specialCharacterResponse = " ";
 
 
 // Write password to the #password input
@@ -21,9 +16,9 @@ function writePassword() {
 
 }
 
-  var numbersPrompt = confirm(
-    'Click OK to confirm including numeric characters.'
-  );
+  // var numbersPrompt = confirm(
+  //   'Click OK to confirm including numeric characters.'
+  // );
   
 function generatePassword() {
     var passwordLength = prompt("Please enter the number of characters you want for your new password. It must be no less than 8 and no more than 128.");
@@ -71,15 +66,15 @@ function generatePassword() {
       minimumCount++;
     }
 
-    if (upperCases === true) {
-      minimumUpperCases = functionArray.getUpperCases();
-      minimumCount++;
-    }
+    // if (upperCases === true) {
+    //   minimumUpperCases = functionArray.getUpperCases();
+    //   minimumCount++;
+    // }
 
-    if (special === true) {
-      minimumSpecialCharacters = functionArray.getSpecialCharacters();
-      minimimCount++;
-    }
+    // if (special === true) {
+    //   minimumSpecialCharacters = functionArray.getSpecialCharacters();
+    //   minimimCount++;
+    // }
 
   var randomPasswordGenerated = " ";
 
@@ -116,9 +111,6 @@ function generatePassword() {
  
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
   
     
     
