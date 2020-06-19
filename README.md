@@ -16,3 +16,25 @@
     WHEN the password is generated
     THEN the password is either displayed in an alert or written to the page
 
+## Technologies Used 
+
+- JavaScript - used to activate the alert windows and generate the random password characters. 
+- VS Code - where I wrote out my code
+- GitHub - Used to generate the repository and publish the website.
+
+## Screenshots 
+
+<img src="screenshot1.png" alt="my code">
+
+<img src="screenshot2" alt="my code">
+
+## Deploy Link
+
+
+
+## Authors
+Ayla Dillis 
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScrip)

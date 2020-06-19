@@ -93,18 +93,18 @@ function generatePassword() {
   return randomPasswordGenerated;
 
 
-  //for (var i = 0; i < userResponse; i++); {
-   // Math.floor(math.random);
- // }
+  for (var i = 0; i < userResponse; i++); {
+   Math.floor(math.random);
+ }
 
- // for (var i = 0; i < spCharResponse; i++); {
-    //Math.floor(math.random)
- // }
+ for (var i = 0; i < spCharResponse; i++); {
+    Math.floor(math.random)
+ }
 
- // var password = generatePassword();
- // var passwordText = document.querySelector("#password");
+ var password = generatePassword();
+ var passwordText = document.querySelector("#password");
 
-  //passwordText.value = password;
+  passwordText.value = password;
 
 
 }
