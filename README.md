@@ -60,8 +60,7 @@ function generatePassword() {
 
 ## Deploy Link
 
-- [Click to See Live Site](https://github.com/ayladillis/password-generator)
-- [Click to See Repository](https://ayladillis.github.io/password-generator/)
+- [Click to See Live Site](https://ayladillis.github.io/password-generator/)
 
 
 ## Authors
