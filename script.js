@@ -66,15 +66,6 @@ function generatePassword() {
       minimumCount++;
     }
 
-    // if (upperCases === true) {
-    //   minimumUpperCases = functionArray.getUpperCases();
-    //   minimumCount++;
-    // }
-
-    // if (special === true) {
-    //   minimumSpecialCharacters = functionArray.getSpecialCharacters();
-    //   minimimCount++;
-    // }
 
   var randomPasswordGenerated = " ";
 
