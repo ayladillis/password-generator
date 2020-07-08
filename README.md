@@ -46,7 +46,6 @@ The for loop function that builds the random pasword from the users answers to t
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScrip)
-* [JQuery](https://jquery.com/)
 
 ## Authors 
 - [Ayla Dillis](https://github.com/ayladillis)
