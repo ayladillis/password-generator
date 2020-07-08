@@ -1,5 +1,5 @@
 # Password-Generator
-THis application uses javascript to prompt the user a series of questions regarding their password; length (between 8 and 128 characters), lowercase, uppercase, numeric and/or special characters. Then generates a random password based on the users input. 
+This application uses javascript to prompt users with a series of questions regarding their password; length (between 8 and 128 characters), lowercase, uppercase, numeric and/or special characters. Then generates a random password based on the users input. 
 
 ![Web screenshot](https://media.giphy.com/media/RMH8DbJ98vIzOx2ZOx/giphy.gif)
 
